@@ -1,0 +1,11 @@
+files: [./megre_data_20240202.mat]
+#dirs: [./data/dicom1, ./data/dicom2]
+outDir: ./out
+reScale: 0.0001 # Rescaling might be needed for datasets with too small/large pixel values
+sliceList: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+echoes: [0, 1, 2, 3, 4, 5]
+temperature: 37
+cropFOV: [0, 320, 0, 258] # [x0, x1, y0, y1]
+reconSlab: 36
+clockwisePrecession: False
+offresCenter: 0.
